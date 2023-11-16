@@ -205,33 +205,33 @@ transform: none;
 
 
 .child0 {
-	display: none;
-	opacity: 0;
-  animation: ani 1s forwards;
+  display: none;
+  opacity: 0;
+ animation: ani 1s forwards;
 }
 
 .parent0 u {
-	cursor: pointer;
-	transition: all 0.3s ease 0s;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
 }
 
 .parent0 u:hover {
-	color: #5e5b5b;
+  color: #5e5b5b;
 }
 
 @keyframes ani {
-  0% {
-	  opacity: 0;
-  }
-  100% {
-	  opacity: 1;
-  }
+ 0% {
+	 opacity: 0;
+ }
+ 100% {
+	 opacity: 1;
+ }
 }
     </style>
 </div>
 <script>// <![CDATA[
-  $(".parent0").click(function () {        
-			 $(this).children(".child0").slideToggle(300);
-		});
-  // ]]>
+ $(".parent0").click(function () {        
+			$(this).children(".child0").slideToggle(300);
+	  });
+ // ]]>
 </script>
