@@ -26,13 +26,8 @@
   height: 90px;
 }
 
-.uk-slidenav:hover {
-  background-color: #fff;
-}
-
 .uk-slidenav {
-  color: #013c9b;
-  background-color: #ffffffab;
+  display: none;
 }
 .uk-subnav-pill > * > :first-child {
   margin-bottom: 10px;
@@ -53,5 +48,9 @@
 @media screen and (max-width: 640px) {
   .komplekt-title {
     height: 75px;
+  }
+  .el-section {
+    margin-top: 20px;
+    margin-bottom: 60px;
   }
 }
